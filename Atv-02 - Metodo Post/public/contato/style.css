@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  font-family: Verdana,Tahoma,sans-serif;
+  font-size: 12px;
+  background-color: #176ca5;
+  max-width: 525px;
+}
+
+h2 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: white;
+}
+
+input, textarea, select { 
+  width: 250px;
+  padding: 5px;
+  color: white;
+  background-color: #262626;
+}
+
+.enviar {
+  background-color: #640000;
+  height: 30px;
+  width: 80px;
+  color: white;
+}
+
+textarea {
+  width: 350px;
+  height: 130px;
+  line-height: 16px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 0px;
+  padding-right: 30px;
+  color: #FFFFFF; 
+}
+
+table, th, tr {
+  color: #FFFFFF; 
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 140px;
+  padding: 5px;
+}
+
+tr {
+  text-align: left;
+}
+
+input[type=radio] {
+    width: 15px;
+    height: 10px;
+}
