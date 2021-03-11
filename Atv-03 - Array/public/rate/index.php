@@ -14,11 +14,11 @@
 
   $rate = array();
 
-  $rate[] = array("titulo" => "Mulher-Maravila",  "nota" => "8.45");
-  $rate[] = array("titulo" => "O Rei Leão",       "nota" => "9.20");
-  $rate[] = array("titulo" => "Mulher-Maravila",  "nota" => "7.30");
-  $rate[] = array("titulo" => "Logan",            "nota" => "9.20");
-  $rate[] = array("titulo" => "Lugar Silenciose", "nota" => "8.30");
+  $rate[] = array("titulo" => "X-MEN: A Saga da Fênix Negra",  "nota" => "9.5");
+  $rate[] = array("titulo" => "WOLVERINE: INIMIGO DO ESTADO",       "nota" => "10.0");
+  $rate[] = array("titulo" => "WOLVERINE: ARMA X",  "nota" => "9.5");
+  $rate[] = array("titulo" => "X-MEN:Deus Ama, o Homem Mata",            "nota" => "9.5");
+  $rate[] = array("titulo" => "X-MEN:Inferno", "nota" => "9.2");
 
 
   echo "<pre>";
