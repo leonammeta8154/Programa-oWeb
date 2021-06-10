@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    border: collapse;
+    text-align: center;
+}
+
+th{
+    height: 50px;
+    font-size: 14pt;
+}
+
+button{
+    width: 70px;
+}
+
+button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+header{
+    background-color: #3d0202;
+    color: #ffffff;
+    width: 100%;
+}
+
+body{
+    background-color: #363636;
+    color: #fff;
+    font-weight: bold;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+.menu ul li{
+    padding: 15px;
+    position: relative;
+    width: 150px;
+    background-color: #700000;
+    border-top: 1px solid #808080;
+    transition: all 0.3s ;
+}
+
+.menu ul li:hover{
+    background-color: #3b0000;
+}
+
+.menu > ul > li{
+    border-right: 5px solid #ff0000;
+}
+
+.menu ul ul{
+    opacity: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+    position: absolute;
+    left: 100%;
+    top: -2%;
+    border-left: 5px solid #ff0000;
+}
+
+.menu ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    background-color: #3b0000;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+span{
+    margin-right: 15px;
+}
+
+.menu{
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -200px;
+}
+
+label[for="btn_menu"]{
+    padding: 5px;
+    background-color: #700000;
+    color: #fff;
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#btn_menu{
+    display: none;
+}
+
+#btn_menu:checked ~ .menu{
+    transform: translateX(200px);
+}
